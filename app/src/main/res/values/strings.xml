@@ -6,4 +6,6 @@
 
     <string name="et_hint_email">email</string>
     <string name="et_hint_password">password</string>
+
+    <string name="iv_res">result</string>
 </resources>

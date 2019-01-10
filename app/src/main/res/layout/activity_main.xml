@@ -26,11 +26,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:contentDescription="@string/cat"
-            android:paddingTop="70sp"
-            android:paddingBottom="40sp"
             android:src="@drawable/cat13"
-            app:srcCompat="@drawable/cat13" />
-        <!--app:srcCompat="@drawable/cat13" -->
+            app:srcCompat="@drawable/cat13"
+            />
 
         <TextView
             android:id="@+id/tv_main"
@@ -38,9 +36,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="monospace"
             android:text="@string/tv_main"
-            android:layout_marginLeft="70sp"
-            android:layout_marginRight="70sp"
-            android:textSize="24sp" />
+            android:textSize="15sp" />
 
         <EditText
             android:id="@+id/et_email"
@@ -73,6 +69,15 @@
             android:layout_marginLeft="70sp"
             android:layout_marginRight="70sp"
             android:text="@string/btn_enter" />
+
+        <ImageView
+            android:id="@+id/iv_res"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15sp"
+            android:contentDescription="@string/iv_res"
+            android:src="@drawable/cat"
+            app:srcCompat="@drawable/cat" />
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
