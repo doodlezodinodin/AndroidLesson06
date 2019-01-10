@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AndroidLesson06</string>
+    <string name="tv_main">Авторизация</string>
+    <string name="btn_enter">Войти</string>
+    <string name="cat">cat</string>
+
+    <string name="et_hint_email">email</string>
+    <string name="et_hint_password">password</string>
+</resources>
