@@ -79,5 +79,11 @@
             android:src="@drawable/cat"
             app:srcCompat="@drawable/cat" />
 
+        <Button
+            android:id="@+id/btn_Lesson10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lesson10" />
+
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
